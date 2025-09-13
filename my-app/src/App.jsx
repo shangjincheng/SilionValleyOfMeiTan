@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+        <h1>你好，湄潭硅谷</h1>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
