@@ -1,0 +1,10 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+  },
+  "include": [
+    "src/**/*",  // 确保包含 src 目录下的所有文件（包括声明文件）
+    "declarations.d.ts"  // 如果声明文件在根目录，需要单独列出
+  ]
+}
