@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import HomePage from './homePage/HomePage';
 import './App.css'
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
   return (
       <Router basename = {basename}>
           <Routes>
+              <Route path="/" element={<Navigate to="/homepage" replace/>} />
               <Route path="/" element={<HomePage/>}/>
           </Routes>
       </Router>
