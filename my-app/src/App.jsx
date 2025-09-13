@@ -10,7 +10,7 @@ function App() {
       <Router basename = {basename}>
           <Routes>
               <Route path="/" element={<Navigate to="/homepage" replace/>} />
-              <Route path="/" element={<HomePage/>}/>
+              <Route path="/homepage" element={<HomePage/>}/>
           </Routes>
       </Router>
   )
