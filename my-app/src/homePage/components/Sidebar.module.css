@@ -1,0 +1,10 @@
+.container {
+    min-width: 300px;
+    max-width: 300px;
+    height: 90vh;
+    background-color: #ffffff;
+    border-color: #888888;
+    border-style: solid;
+    border-radius: 10px;
+    margin-right: auto;
+}

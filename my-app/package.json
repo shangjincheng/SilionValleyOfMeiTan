@@ -2,6 +2,7 @@
   "name": "my-app",
   "homepage": "https://silion-valley-of-meitan.netlify.app",
   "private": true,
+  "type": "module",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

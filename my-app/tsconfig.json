@@ -2,6 +2,8 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src/**/*",  // 确保包含 src 目录下的所有文件（包括声明文件）
